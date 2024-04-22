@@ -72,9 +72,6 @@
   services.zfs.autoSnapshot.enable = true;
   services.flatpak.enable = true;
 
-  users.users.klide.openssh.authorizedKeys.keys =
-    [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJVieLCkWGImVI9c7D0Z0qRxBAKf0eaQWUfMn0uyM/Ql" ];
-
   ##### virtualisation #####
 
   users.users.klide.extraGroups = [ "libvirtd" ];
