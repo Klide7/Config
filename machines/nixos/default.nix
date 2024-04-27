@@ -72,6 +72,8 @@
   services.zfs.autoSnapshot.enable = true;
   services.flatpak.enable = true;
 
+  systemd.coredump.enable = false;
+
   ##### virtualisation #####
 
   users.users.klide.extraGroups = [ "libvirtd" ];
